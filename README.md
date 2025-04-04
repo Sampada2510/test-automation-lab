@@ -1,5 +1,7 @@
 
+<p align="center">
 <img src="https://github.com/Sampada2510/All-In-One-QA/blob/main/3793102.jpg" alt="Portfolio Banner" width="300" height="300">
+</p> 
 
 ### Welcome to My GitHub Portfolio "All-In-One-QA"
 This repository serves as my portfolio, showcasing a collection of interesting QA automation projects using Java, Python, Selenium, Cucumber, TestNG, Playwright, and CI/CD with Jenkins. It includes detailed documentation for learning and reference, demonstrating my expertise in automation, cloud-based testing, and test optimization
