@@ -3,7 +3,8 @@
 <img src="https://github.com/Sampada2510/All-In-One-QA/blob/main/3793102.jpg" alt="Portfolio Banner" width="400" height="400">
 </p> 
 
-### Welcome to My GitHub Portfolio "All-In-One-QA"
+## Welcome to My GitHub Portfolio "All-In-One-QA"
+
 This repository serves as my portfolio, showcasing a collection of interesting QA automation projects using Java, Python, Selenium, Cucumber, TestNG, Playwright, and CI/CD with Jenkins. It includes detailed documentation for learning and reference, demonstrating my expertise in automation, cloud-based testing, and test optimization
 ---
 
@@ -20,7 +21,7 @@ What defines my QA mindset? It’s a **strategic approach to testing**— where 
 - ✅ **Performance testing using tools like JMeter**, identifying bottlenecks before users do  
 - ✅ **Collaborating cross-functionally** to embed quality into the entire SDLC  
 
-### 🏢 Professional Highlights
+## 🏢 Professional Highlights
 
 At **Riverus Technology Solutions**, as a Quality Assurance Engineer, I led test planning, UAT, and exploratory testing for a contract lifecycle management platform, significantly reducing post-release defects. I automated UI and API tests using **Selenium, Python, and Behave**, which greatly reduced manual testing efforts and improved test execution speed. I also established validation procedures on **AWS (S3, EC2, CloudWatch)**, authored comprehensive test cases, and leveraged **SQL and debugging skills** to accelerate defect resolution. In another major initiative at Riverus, I engineered a **Selenium-Java-TestNG automation framework** that covered over 800 regression and smoke test cases—dramatically improving execution speed and test accuracy. I also piloted **API and SQL data validation strategies** to strengthen data pipeline reliability and reporting accuracy, while applying both **white-box and black-box testing techniques** to enhance product quality.
 
@@ -28,9 +29,10 @@ At **KPOINT Technologies**, as a Senior Software Engineer, I revamped the test a
 
 ---
 
-## 🎯 What I Bring
+## What I Bring
 
 I bring **end-to-end quality ownership**—from ideation to production, from manual validations to intelligent automation. I don’t just write scripts—I **engineer test strategies** that scale with your product and team. Currently, I’m pursuing my **Master’s in Management Information Systems at the University at Buffalo**, staying ahead of emerging tech trends while honing my ability to bridge the gap between technology and business. I’m deeply invested in **test automation, cloud testing, and CI/CD optimization**—and always eager to connect with like-minded professionals. If you’re passionate about quality engineering, let’s chat! **https://www.linkedin.com/in/sampadatelang/**
+
 ---
 
 ## What's in Here?
@@ -83,3 +85,5 @@ Feel free to explore my projects and reach out for collaboration!
 🔗 **GitHub:** https://github.com/Sampada2510/All-In-One-QA  
 💼 **LinkedIn:** https://www.linkedin.com/in/sampadatelang/  
 📧 **Email:** telangsampada68@gmail.com
+
+---
