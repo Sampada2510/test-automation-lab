@@ -1,73 +1,88 @@
 
 <p align="center">
-<img src="https://github.com/Sampada2510/All-In-One-QA/blob/main/3793102.jpg" alt="Portfolio Banner" width="300" height="300">
+<img src="https://github.com/Sampada2510/All-In-One-QA/blob/main/3793102.jpg" alt="Portfolio Banner" width="400" height="400">
 </p> 
 
 ### Welcome to My GitHub Portfolio "All-In-One-QA"
 This repository serves as my portfolio, showcasing a collection of interesting QA automation projects using Java, Python, Selenium, Cucumber, TestNG, Playwright, and CI/CD with Jenkins. It includes detailed documentation for learning and reference, demonstrating my expertise in automation, cloud-based testing, and test optimization
+---
 
-## About Me
+## 👩‍💻 About Me
 
-Hey there! I'm a passionate Software Quality Engineer with over six years of experience making sure software doesn’t just work—but works flawlessly. My expertise spans **test planning, scenario design, execution, and automation**, all crucial to maintaining software quality throughout release cycles. From functional and non-functional testing to CI/CD integrations, I thrive in **building efficient, automated workflows that minimize manual effort and maximize reliability**.
+Hey there! I'm a passionate Software Quality Engineer with over six years of experience making sure software doesn’t just work—but works flawlessly. My expertise spans **test planning, test scenario design, test execution, and automation**, all crucial to maintaining software quality throughout release cycles. From functional and non-functional testing to CI/CD integrations, I thrive in **building efficient, automated workflows that minimize manual effort and maximize reliability**.
 
-At **Riverus Technology Solutions**, I spearheaded test automation for a contract lifecycle management SaaS platform, **significantly reducing post-release defects** and optimizing test execution speeds. I automated UI and API testing using **Selenium, Python, and Behave**, cutting manual testing efforts while ensuring broader coverage. My role extended to cloud-based testing, where I established validation procedures via **AWS S3, EC2, and CloudWatch**, enhancing system performance and monitoring. Additionally, I collaborated with DevOps to **seamlessly integrate testing into Jenkins-based CI/CD pipelines**, reducing deployment failures and ensuring smooth releases.
+What defines my QA mindset? It’s a **strategic approach to testing**— where every decision is backed by test coverage value—ensuring we test what matters most, avoid redundancy, and maintain high confidence in releases.
 
-Prior to that, at **KPOINT Technologies**, I revamped test automation frameworks for a large-scale video streaming platform. Leading a **15-member automation team**, I developed a **Selenium-Ruby-Cucumber BDD framework with Page Object Model (POM)**, which streamlined test maintenance and cut regression testing time in half. My experience also includes performance testing using **JMeter**, API testing with **Postman and Swagger**, and optimizing deployments with **Docker and Jenkins**.
+- ✅ **Test planning & strategy creation** aligned with business goals  
+- ✅ **Designing high-impact test cases and scenarios** that catch edge cases early  
+- ✅ **Executing and managing functional, non-functional, regression, and exploratory testing cycles**  
+- ✅ **Deciding what to automate and what not to—based on stability, repeatability, and cost-benefit analysis**  
+- ✅ **Performance testing using tools like JMeter**, identifying bottlenecks before users do  
+- ✅ **Collaborating cross-functionally** to embed quality into the entire SDLC  
 
-Currently, I’m pursuing my **Master’s in Management Information Systems at the University at Buffalo**, staying ahead of emerging tech trends while honing my ability to bridge the gap between technology and business. I’m deeply invested in **test automation, cloud testing, and CI/CD optimization**—and always eager to connect with like-minded professionals. If you’re passionate about quality engineering, let’s chat! 🚀
+### 🏢 Professional Highlights
+
+At **Riverus Technology Solutions**, as a Quality Assurance Engineer, I led test planning, UAT, and exploratory testing for a contract lifecycle management platform, significantly reducing post-release defects. I automated UI and API tests using **Selenium, Python, and Behave**, which greatly reduced manual testing efforts and improved test execution speed. I also established validation procedures on **AWS (S3, EC2, CloudWatch)**, authored comprehensive test cases, and leveraged **SQL and debugging skills** to accelerate defect resolution. In another major initiative at Riverus, I engineered a **Selenium-Java-TestNG automation framework** that covered over 800 regression and smoke test cases—dramatically improving execution speed and test accuracy. I also piloted **API and SQL data validation strategies** to strengthen data pipeline reliability and reporting accuracy, while applying both **white-box and black-box testing techniques** to enhance product quality.
+
+At **KPOINT Technologies**, as a Senior Software Engineer, I revamped the test automation framework for a video and audio streaming platform, mentoring junior engineers and automating over 50 high-priority test cases within the first month. I built a robust **Selenium-Ruby-Cucumber BDD framework with Page Object Model (POM)** that significantly reduced regression testing time. I enhanced CI/CD testing by integrating tools like **Jenkins, Docker, and Kibana**, leading to faster and more stable deployments. I also explored additional automation tools like **Playwright**, and actively promoted **Agile Scrum practices**, improving team collaboration and accelerating delivery cycles.
+
+---
+
+## 🎯 What I Bring
+
+I bring **end-to-end quality ownership**—from ideation to production, from manual validations to intelligent automation. I don’t just write scripts—I **engineer test strategies** that scale with your product and team.  
+
+Currently, I’m pursuing my **Master’s in Management Information Systems at the University at Buffalo**, staying ahead of emerging tech trends while honing my ability to bridge the gap between technology and business. I’m deeply invested in **test automation, cloud testing, and CI/CD optimization**—and always eager to connect with like-minded professionals. If you’re passionate about quality engineering, let’s chat! **https://www.linkedin.com/in/sampadatelang/**
+---
 
 ## What's in Here?
 
 This repository contains a collection of my automation testing projects, showcasing my ability to work with different tools, frameworks, and methodologies. Each project includes setup details, test cases, and CI/CD configurations.
 
-### 🔹 First Trial Project: Swag Labs (Python + Selenium + Git + Jenkins)
-- **Tech Stack:** Python, Selenium, Git, Jenkins
-- **Goal:** Setting up an automation framework for Swag Labs and integrating it with a CI/CD pipeline.
+### 🔹 First Trial Project: Swag Labs (Python + Selenium + Jenkins)
+- **Tech Stack:** Python, Selenium, Jenkins
+- **Goal:** This project is a basic demonstration of using **Selenium WebDriver with Python** to automate UI testing of a web application. It performs a test on [https://www.saucedemo.com]. 
+
+## ✅ What This Script Does
+
+- Opens Chrome browser and navigates to SauceDemo login page
+- Logs in with test credentials
+- Adds a product to the cart
+- Verifies that the product is successfully added
+- Navigates to the cart page
+- Verifies the item is in the cart
+- Closes the browser
 
 ---
 
-### 🔹 Project 1: Java + TestNG Automation (The Internet Website)
-- **Website:** [The Internet Website](https://the-internet.herokuapp.com/)
-- **Tech Stack:** Java, TestNG, CI/CD
-- **Steps:**
-  - Set up environment and explore the website.
-  - Write basic test cases (form submission, button clicks).
-  - Handle edge cases and finalize test cases.
-  - Integrate with CI/CD and push the project to GitHub.
+## 🧠 How It Works
+
+## What is Selenium?
+
+Selenium is an open-source tool that automates web browsers. It allows you to simulate user actions like clicks, typing, and navigation on websites.
+
+## What is a WebDriver?
+
+A WebDriver is a bridge between Selenium and the web browser. It sends commands from your script to the browser. For Chrome, we use **ChromeDriver**.
 
 ---
 
-### 🔹 Project 2: Cucumber JavaScript + DemoQA Automation (POM Framework)
-- **Website:** [DemoQA](https://demoqa.com/)
-- **Tech Stack:** JavaScript, Cucumber, POM Framework
-- **Steps:**
-  - Set up Cucumber and write Gherkin feature files (login, form submission).
-  - Implement step definitions and finalize test cases.
-  - Integrate with CI/CD and push the project to GitHub.
+## 💻 Setup Instructions
 
----
+## 1. Install Dependencies
+## 2. Download ChromeDriver
+Go to: https://developer.chrome.com/docs/chromedriver/downloads
 
-### 🔹 Project 3: Playwright Automation (Formy Project Website)
-- **Website:** [Formy Project](https://formy-project.herokuapp.com/)
-- **Tech Stack:** Playwright
-- **Steps:**
-  - Set up Playwright and automate form interactions.
-  - Add additional test cases (validation, success messages).
-  - Integrate with CI/CD and push the project to GitHub.
+Download the version that matches your Chrome browser
 
----
+Add the chromedriver to your system PATH or place it in the project folder
 
-### 🔹 Project 4: Python + Behave (AwesomeQA Website)
-- **Website:** [AwesomeQA](https://awesomeqa.com/ui/)
-- **Tech Stack:** Python, Behave
-- **Steps:**
-  - Set up Behave with Python and write test cases for form interactions.
-  - Complete test cases and integrate CI/CD.
-  - Debug, finalize, and push the project to GitHub.
+Ensure Python is installed, then install Selenium:
 
----
+```bash
+pip install selenium
 
-## 🚀 Let's Connect
+## Let's Connect
 Feel free to explore my projects and reach out for collaboration!
 
 🔗 **GitHub:** https://github.com/Sampada2510/All-In-One-QA  
