@@ -6,6 +6,7 @@
 ## Welcome to My GitHub Portfolio "All-In-One-QA"
 
 This repository serves as my portfolio, showcasing a collection of interesting QA automation projects using Java, Python, Selenium, Cucumber, TestNG, Playwright, and CI/CD with Jenkins. It includes detailed documentation for learning and reference, demonstrating my expertise in automation, cloud-based testing, and test optimization
+
 ---
 
 ## 👩‍💻 About Me
