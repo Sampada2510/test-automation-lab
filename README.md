@@ -30,9 +30,7 @@ At **KPOINT Technologies**, as a Senior Software Engineer, I revamped the test a
 
 ## 🎯 What I Bring
 
-I bring **end-to-end quality ownership**—from ideation to production, from manual validations to intelligent automation. I don’t just write scripts—I **engineer test strategies** that scale with your product and team.  
-
-Currently, I’m pursuing my **Master’s in Management Information Systems at the University at Buffalo**, staying ahead of emerging tech trends while honing my ability to bridge the gap between technology and business. I’m deeply invested in **test automation, cloud testing, and CI/CD optimization**—and always eager to connect with like-minded professionals. If you’re passionate about quality engineering, let’s chat! **https://www.linkedin.com/in/sampadatelang/**
+I bring **end-to-end quality ownership**—from ideation to production, from manual validations to intelligent automation. I don’t just write scripts—I **engineer test strategies** that scale with your product and team. Currently, I’m pursuing my **Master’s in Management Information Systems at the University at Buffalo**, staying ahead of emerging tech trends while honing my ability to bridge the gap between technology and business. I’m deeply invested in **test automation, cloud testing, and CI/CD optimization**—and always eager to connect with like-minded professionals. If you’re passionate about quality engineering, let’s chat! **https://www.linkedin.com/in/sampadatelang/**
 ---
 
 ## What's in Here?
@@ -77,10 +75,7 @@ Download the version that matches your Chrome browser
 
 Add the chromedriver to your system PATH or place it in the project folder
 
-Ensure Python is installed, then install Selenium:
-
-```bash
-pip install selenium
+Ensure Python is installed, then install Selenium: pip install selenium
 
 ## Let's Connect
 Feel free to explore my projects and reach out for collaboration!
