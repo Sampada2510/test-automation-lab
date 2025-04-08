@@ -19,7 +19,7 @@ This repository serves as my portfolio, showcasing a collection of interesting Q
 <img src="https://github.com/Sampada2510/test-automation-lab/blob/main/3793102.jpg" alt="Portfolio Banner" width="400" height="400">
 </p> 
 
-## 👩‍💻 About Me
+## About Me
 
 Hey there! I'm a passionate Software Quality Engineer with over six years of experience making sure software doesn’t just work—but works flawlessly. My expertise spans **test planning, test scenario design, test execution, and automation**, all crucial to maintaining software quality throughout release cycles. From functional and non-functional testing to CI/CD integrations, I thrive in **building efficient, automated workflows that minimize manual effort and maximize reliability**.
 
@@ -32,7 +32,7 @@ What defines my QA mindset? It’s a **strategic approach to testing**— where 
 - ✅ **Performance testing using tools like JMeter**, identifying bottlenecks before users do  
 - ✅ **Collaborating cross-functionally** to embed quality into the entire SDLC  
 
-## 🏢 Professional Highlights
+## Professional Highlights
 
 At **Riverus Technology Solutions**, as a Quality Assurance Engineer, I led test planning, UAT, and exploratory testing for a contract lifecycle management platform, significantly reducing post-release defects. I automated UI and API tests using **Selenium, Python, and Behave**, which greatly reduced manual testing efforts and improved test execution speed. I also established validation procedures on **AWS (S3, EC2, CloudWatch)**, authored comprehensive test cases, and leveraged **SQL and debugging skills** to accelerate defect resolution. In another major initiative at Riverus, I engineered a **Selenium-Java-TestNG automation framework** that covered over 800 regression and smoke test cases—dramatically improving execution speed and test accuracy. I also piloted **API and SQL data validation strategies** to strengthen data pipeline reliability and reporting accuracy, while applying both **white-box and black-box testing techniques** to enhance product quality.
 
@@ -50,7 +50,7 @@ I bring **end-to-end quality ownership**—from ideation to production, from man
 - **Tech Stack:** Python, Selenium, Jenkins
 - **Goal:** This project is a basic demonstration of using **Selenium WebDriver with Python** to automate UI testing of a web application. It performs a test on [https://www.saucedemo.com] and then runs test in a CI/CD jenkins pipeline. 
 
-## ✅ What This Script Does
+## What This Script Does
 
 - Opens Chrome browser and navigates to SauceDemo login page
 - Logs in with test credentials
@@ -62,7 +62,7 @@ I bring **end-to-end quality ownership**—from ideation to production, from man
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ## What is Selenium?
 
@@ -74,7 +74,7 @@ A WebDriver is a bridge between Selenium and the web browser. It sends commands 
 
 ---
 
-## 💻 Setup Instructions
+## Setup Instructions
 
 ## 1. Install Dependencies
 
@@ -87,31 +87,31 @@ Download the version that matches your Chrome browser
 
 Add the chromedriver to your system PATH or place it in the project folder
 
-## 🚀 CI/CD Integration with Jenkins
+## CI/CD Integration with Jenkins
 
 This project integrates with **Jenkins** using a **Pipeline-as-Code** approach. A custom `Jenkinsfile` is provided that automates the entire testing process.
 
-### 📄 Jenkinsfile Overview
+### Jenkinsfile Overview
 
 The Jenkins pipeline performs the following steps:
 
-#### 🔧 Environment Setup (Windows)
+####  Environment Setup (Windows)
 - Adds Python and pip to the system `PATH`
 - Sets variables for:
   - `SELENIUM_TEST_DIR`: Location of the test script
   - `CHROMEDRIVER_PATH`: Path to the ChromeDriver executable
 
-#### 📦 Install Dependencies
+#### Install Dependencies
 - Echoes environment variables for debug
 - Prints Python and pip versions
 - Installs Selenium using `pip`
 
-#### 🧪 Run Selenium Test
+#### Run Selenium Test
 - Runs `saucedemo_sanity_tests.py` from the defined test directory
 - Uses Chrome in **headless mode**
 - Passes Chrome options and ChromeDriver path to the script
 
-#### 🧹 Post Actions
+#### Post Actions
 - Always prints a message indicating the test has finished
 
 ---
