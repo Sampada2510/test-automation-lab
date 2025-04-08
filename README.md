@@ -8,6 +8,7 @@
 - [File Upload Automation with Playwright and Node.js](#file-upload-automation-with-playwright-and-nodejs)
 - [Download File Automation with Playwright and Node.js](#download-file-automation-with-playwright-and-nodejs)
 - [Selenium Automation Project TDD for Formy Demo Site](#selenium-automation-project-tdd-for-formy-demo-site)
+- [AwesomeQA Test Automation BDD Framework](#awesomeqa-test-automation-bdd-framework)
 - [Let's Connect](#lets-connect)
 
 ## What's in Here?
@@ -217,6 +218,67 @@ All tests use **explicit waits** to ensure elements are interactable, and `Threa
 ## Maven Project Structure
 
 This is a **Maven project**, and all dependencies are managed through the `pom.xml`.
+
+# AwesomeQA Test Automation BDD Framework
+
+This project is a **Test Automation Framework** using **Behave**, **Selenium**, and the **Page Object Model (POM)**. It is designed to test basic functionalities on the AwesomeQA website (`https://awesomeqa.com/ui/`). The tests are written using **Behavior-Driven Development (BDD)** principles and **Gherkin syntax**.
+
+## What is BDD?
+
+**Behavior-Driven Development (BDD)** is a methodology that focuses on collaboration between developers, QA, and non-technical stakeholders. It uses natural language to describe how software should behave.
+
+## What is Gherkin?
+
+**Gherkin** is the language used to write **feature files** in BDD. It is a plain-text language with simple syntax (`Given`, `When`, `Then`) to describe system behavior in a human-readable format.
+
+## Project Structure
+
+```
+awesomeqa_tests/
+├── features/
+│   ├── shopping.feature
+│   └── steps/
+│       └── shopping_steps.py
+├── pages/
+│   ├── home_page.py
+├── requirements.txt
+```
+
+- `features/`: Contains Gherkin feature files.
+- `steps/`: Contains the step definition files for the features.
+- `pages/`: Contains page object classes with locators and actions.
+
+## Setting Up the Project
+
+1. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## How to Run Tests
+
+To run the tests, navigate to your project folder and execute the following command:
+
+```bash
+behave -t '@shopping'
+```
+
+This command runs all the scenarios tagged with `@shopping` in the `*.feature` files.
+
+## Explanation of Key Components
+
+- **Feature Files**: Written in Gherkin syntax, these files describe the behavior of a system. 
+- **Step Definitions**: These Python methods implement the steps in your feature files.
+- **Page Object Class**: Encapsulates actions and locators for web elements to follow the Page Object Model (POM).
+
+## Tests Included
+
+The project includes tests for the following features on the AwesomeQA website:
+1. **Search for products**
+2. **Add product to cart**
+3. **Navigate to the contact page**
+
+Each feature is described in a Gherkin feature file, and the actions are implemented in step definition files and page object classes.
 
 
 ## Let's Connect
