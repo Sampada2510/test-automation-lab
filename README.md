@@ -2,10 +2,11 @@
 
 ## Table of Contents
 - [What's in Here?](#whats-in-here)
+- [About Me](#about-me)
 - [Professional Highlights](#professional-highlights)
 - [First Trial Project: Swag Labs (Python + Selenium + Jenkins)](#first-trial-project-swag-labs-python--selenium--jenkins)
 - [File Upload Automation with Playwright and Node.js](#file-upload-automation-with-playwright-and-nodejs)
-- [Download File Automation with Playwright and Node.js](download-file-automation-with-playwright-and-nodejs)
+- [Download File Automation with Playwright and Node.js](#download-file-automation-with-playwright-and-nodejs)
 - [Let's Connect](#lets-connect)
 
 ## What's in Here?
