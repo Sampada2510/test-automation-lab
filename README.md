@@ -1,13 +1,14 @@
+## Welcome to My GitHub Portfolio "test-automation-lab"
 
-<p align="center">
-<img src="https://github.com/Sampada2510/All-In-One-QA/blob/main/3793102.jpg" alt="Portfolio Banner" width="400" height="400">
-</p> 
-
-## Welcome to My GitHub Portfolio "All-In-One-QA"
+## What's in Here?
 
 This repository serves as my portfolio, showcasing a collection of interesting QA automation projects using Java, Python, Selenium, Cucumber, TestNG, Playwright, and CI/CD with Jenkins. It includes detailed documentation for learning and reference, demonstrating my expertise in automation, cloud-based testing, and test optimization
 
 ---
+
+<p align="center">
+<img src="https://github.com/Sampada2510/test-automation-lab/blob/main/3793102.jpg" alt="Portfolio Banner" width="400" height="400">
+</p> 
 
 ## 👩‍💻 About Me
 
@@ -36,13 +37,9 @@ I bring **end-to-end quality ownership**—from ideation to production, from man
 
 ---
 
-## What's in Here?
-
-This repository contains a collection of my automation testing projects, showcasing my ability to work with different tools, frameworks, and methodologies. Each project includes setup details, test cases, and CI/CD configurations.
-
 ### 🔹 First Trial Project: Swag Labs (Python + Selenium + Jenkins)
 - **Tech Stack:** Python, Selenium, Jenkins
-- **Goal:** This project is a basic demonstration of using **Selenium WebDriver with Python** to automate UI testing of a web application. It performs a test on [https://www.saucedemo.com]. 
+- **Goal:** This project is a basic demonstration of using **Selenium WebDriver with Python** to automate UI testing of a web application. It performs a test on [https://www.saucedemo.com] and then runs test in a CI/CD jenkins pipeline. 
 
 ## ✅ What This Script Does
 
@@ -80,10 +77,40 @@ Add the chromedriver to your system PATH or place it in the project folder
 
 Ensure Python is installed, then install Selenium: pip install selenium
 
+
+## 🚀 CI/CD Integration with Jenkins
+
+This project integrates with **Jenkins** using a **Pipeline-as-Code** approach. A custom `Jenkinsfile` is provided that automates the entire testing process.
+
+### 📄 Jenkinsfile Overview
+
+The Jenkins pipeline performs the following steps:
+
+#### 🔧 Environment Setup (Windows)
+- Adds Python and pip to the system `PATH`
+- Sets variables for:
+  - `SELENIUM_TEST_DIR`: Location of the test script
+  - `CHROMEDRIVER_PATH`: Path to the ChromeDriver executable
+
+#### 📦 Install Dependencies
+- Echoes environment variables for debug
+- Prints Python and pip versions
+- Installs Selenium using `pip`
+
+#### 🧪 Run Selenium Test
+- Runs `saucedemo_sanity_tests.py` from the defined test directory
+- Uses Chrome in **headless mode**
+- Passes Chrome options and ChromeDriver path to the script
+
+#### 🧹 Post Actions
+- Always prints a message indicating the test has finished
+
+---
+
 ## Let's Connect
 Feel free to explore my projects and reach out for collaboration!
 
-🔗 **GitHub:** https://github.com/Sampada2510/All-In-One-QA  
+🔗 **GitHub:** https://github.com/Sampada2510/test-automation-lab  
 💼 **LinkedIn:** https://www.linkedin.com/in/sampadatelang/  
 📧 **Email:** telangsampada68@gmail.com
 
