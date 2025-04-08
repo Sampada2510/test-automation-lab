@@ -1,0 +1,49 @@
+pipeline {
+    agent any
+
+    environment {
+        // Define paths to Python, ChromeDriver, and the project directory
+        PATH = "C:\\Users\\sampa\\AppData\\Local\\Programs\\Python\\Python313\\;C:\\Users\\sampa\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\;${env.PATH}"
+        SELENIUM_TEST_DIR = 'C:\\Users\\sampa\\Downloads\\JOBS\\TestAutomationGit\\All-In-One-QA\\Simple_Python_and_Selenium'
+        CHROMEDRIVER_PATH = 'C:\\Users\\sampa\\Downloads\\JOBS\\Projects\\SeleniumAutomation\\chromedriver.exe'
+    }
+
+    stages {
+        stage('Install Dependencies') {
+            steps {
+                script {
+                    // Print environment variables for debugging
+                    bat 'echo %PATH%'
+                    
+                    // Debug Python and pip versions
+                    bat 'python --version'
+                    bat 'python -m pip --version'
+                    
+                    // Install Selenium
+                    bat 'pip install selenium'
+                }
+            }
+        }
+
+        stage('Run Selenium Test') {
+            steps {
+                script {
+            // Define Chrome options for headless mode
+            def chromeOptions = '--headless --disable-gpu --no-sandbox --remote-debugging-port=9222'
+
+            // Run the Selenium test script with ChromeDriver path and options (in one line!)
+            bat """
+            python C:\\Users\\sampa\\Downloads\\JOBS\\TestAutomationGit\\All-In-One-QA\\Simple_Python_and_Selenium\\saucedemo_sanity_tests.py --chromedriver_path=${CHROMEDRIVER_PATH} --chrome_options="${chromeOptions}"
+            """
+                    }
+                  }
+            }
+    }
+
+    post {
+        always {
+            // Always run cleanup
+            echo 'Selenium test completed'
+        }
+    }
+}
