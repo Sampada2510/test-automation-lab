@@ -1,8 +1,16 @@
 ## Welcome to My GitHub Portfolio "test-automation-lab"
 
+## Table of Contents
+- [What's in Here?](#whats-in-here)
+- [Professional Highlights](#professional-highlights)
+- [First Trial Project: Swag Labs (Python + Selenium + Jenkins)](#first-trial-project-swag-labs-python--selenium--jenkins)
+- [File Upload Automation with Playwright and Node.js](#file-upload-automation-with-playwright-and-nodejs)
+- [Download File Automation with Playwright and Node.js](download-file-automation-with-playwright-and-nodejs)
+- [Let's Connect](#lets-connect)
+
 ## What's in Here?
 
-This repository serves as my portfolio, showcasing a collection of interesting QA automation projects using Java, Python, Selenium, Cucumber, TestNG, Playwright, and CI/CD with Jenkins. It includes detailed documentation for learning and reference, demonstrating my expertise in automation, cloud-based testing, and test optimization
+This repository serves as my portfolio, showcasing a collection of interesting QA automation projects using Java, Python, Selenium, Cucumber, TestNG, Playwright, javascript and CI/CD with Jenkins. It includes detailed documentation for learning and reference, demonstrating my expertise in automation, cloud-based testing, and test optimization
 
 ---
 
@@ -68,15 +76,15 @@ A WebDriver is a bridge between Selenium and the web browser. It sends commands 
 ## 💻 Setup Instructions
 
 ## 1. Install Dependencies
+
+Ensure Python is installed, then install Selenium: pip install selenium
+
 ## 2. Download ChromeDriver
 Go to: https://developer.chrome.com/docs/chromedriver/downloads
 
 Download the version that matches your Chrome browser
 
 Add the chromedriver to your system PATH or place it in the project folder
-
-Ensure Python is installed, then install Selenium: pip install selenium
-
 
 ## 🚀 CI/CD Integration with Jenkins
 
@@ -106,6 +114,66 @@ The Jenkins pipeline performs the following steps:
 - Always prints a message indicating the test has finished
 
 ---
+
+# File Upload Automation with Playwright and Node.js
+
+This project demonstrates **automated file upload testing** using **Playwright**. The script navigates to a sample file upload page, uploads a file, and verifies if the upload was successful.
+
+## Project Overview
+
+This project automates the process of uploading a file on the **"The Internet"** website ([https://the-internet.herokuapp.com/upload](https://the-internet.herokuapp.com/upload)) using Playwright, a powerful tool for browser automation.
+
+### What the script does:
+1. Launches a Chromium browser in **headed mode** (visible browser).
+2. Navigates to the **upload page**.
+3. Uploads a file (`testFile.txt`).
+4. Submits the form and verifies the success message and the uploaded file.
+5. Waits for **2 seconds** before closing the browser to allow observation of the process.
+
+### Technologies Used:
+- **Playwright** for browser automation.
+- **Node.js** and **npm** for environment setup.
+
+---
+
+# Download File Automation with Playwright and Node.js
+
+This project demonstrates **automated file download testing** using **Playwright**. The script navigates to a file download page, downloads a file, and verifies the download process.
+
+## What the Script Does
+
+1. **Launches the Chromium browser** in headed mode (visible browser).
+2. **Navigates to the file download page** on [The Internet](https://the-internet.herokuapp.com/download).
+3. **Listens for the download event** triggered by clicking the file link.
+4. **Downloads the file** (`logback.xml`) to a specified local directory (`downloads`).
+5. **Waits for 5 seconds** to ensure the download process completes.
+6. **Logs the download path** to the console.
+7. **Closes the browser** after the download is complete.
+
+
+## Installation Instructions
+
+To get started with this project, follow the steps below:
+
+Install Node.js and npm
+
+Make sure you have **Node.js** and **npm** installed. You can download them from [https://nodejs.org/](https://nodejs.org/).
+
+To verify installation:
+node -v
+npm -v
+
+If Node.js and npm are installed but you still see the error, the PATH may not be set correctly.
+
+To install playwright: 
+npm install playwright
+npm install @playwright/test
+
+To run the test: npx playwright test upload_file_test.js
+
+## Add a Test File
+
+Ensure that you have a file named testFile.txt in the same directory as your script or modify the path to match your file location.
 
 ## Let's Connect
 Feel free to explore my projects and reach out for collaboration!
