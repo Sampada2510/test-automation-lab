@@ -7,6 +7,7 @@
 - [First Trial Project: Swag Labs (Python + Selenium + Jenkins)](#first-trial-project-swag-labs-python--selenium--jenkins)
 - [File Upload Automation with Playwright and Node.js](#file-upload-automation-with-playwright-and-nodejs)
 - [Download File Automation with Playwright and Node.js](#download-file-automation-with-playwright-and-nodejs)
+- [Selenium Automation Project TDD for Formy Demo Site](#selenium-automation-project-tdd-for-formy-demo-site)
 - [Let's Connect](#lets-connect)
 
 ## What's in Here?
@@ -175,6 +176,48 @@ To run the test: npx playwright test upload_file_test.js
 ## Add a Test File
 
 Ensure that you have a file named testFile.txt in the same directory as your script or modify the path to match your file location.
+
+# Selenium Automation Project TDD for Formy Demo Site
+
+This project is built using the **Test-Driven Development (TDD)** approach to automate UI tests for the [Formy Project Demo Website](https://formy-project.herokuapp.com/) using **Java**, **Selenium WebDriver**, and **TestNG**.
+
+## What is TDD?
+
+**Test-Driven Development (TDD)** is a software development process where tests are written **before** the actual implementation. In the context of automation, TDD helps:
+
+- Clearly define expected behaviors upfront  
+- Write reliable, repeatable test cases  
+- Build robust and maintainable test suites
+
+This project demonstrates that by starting with test methods that define what the UI should do, and building the automation code around those expectations.
+
+## What This Project Does
+
+The automation covers the following scenarios:
+
+- **Form Submission**  
+  Fills out a form and validates a success message.
+
+- **Autocomplete Field**  
+  Enters an address using the autocomplete input and checks the value.
+
+- **Checkbox Interaction**  
+  Selects a checkbox and verifies it’s checked.
+
+All tests use **explicit waits** to ensure elements are interactable, and `Thread.sleep()` has been added temporarily to visually observe each test step.
+
+## Tech Stack
+
+- Java
+- Selenium WebDriver
+- TestNG
+- Maven
+- ChromeDriver (v134+)
+
+## Maven Project Structure
+
+This is a **Maven project**, and all dependencies are managed through the `pom.xml`.
+
 
 ## Let's Connect
 Feel free to explore my projects and reach out for collaboration!
