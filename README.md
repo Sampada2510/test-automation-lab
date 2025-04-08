@@ -46,7 +46,7 @@ I bring **end-to-end quality ownership**—from ideation to production, from man
 
 ---
 
-### 🔹 First Trial Project: Swag Labs (Python + Selenium + Jenkins)
+### First Trial Project: Swag Labs (Python + Selenium + Jenkins)
 - **Tech Stack:** Python, Selenium, Jenkins
 - **Goal:** This project is a basic demonstration of using **Selenium WebDriver with Python** to automate UI testing of a web application. It performs a test on [https://www.saucedemo.com] and then runs test in a CI/CD jenkins pipeline. 
 
