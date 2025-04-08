@@ -23,7 +23,7 @@ This repository serves as my portfolio, showcasing a collection of interesting Q
 
 ## About Me
 
-Hey there! I'm a passionate Software Quality Engineer with over six years of experience making sure software doesn’t just work—but works flawlessly. My expertise spans **test planning, test scenario design, test execution, and automation**, all crucial to maintaining software quality throughout release cycles. From functional and non-functional testing to CI/CD integrations, I thrive in **building efficient, automated workflows that minimize manual effort and maximize reliability**.
+Hey there! I'm a passionate Software Quality Assurance Engineer with over six years of experience making sure software doesn’t just work—but works flawlessly. My expertise spans **test planning, test scenario design, test execution, and automation**, all crucial to maintaining software quality throughout release cycles. From functional and non-functional testing to CI/CD integrations, I thrive in **building efficient, automated workflows that minimize manual effort and maximize reliability**.
 
 What defines my QA mindset? It’s a **strategic approach to testing**— where every decision is backed by test coverage value—ensuring we test what matters most, avoid redundancy, and maintain high confidence in releases.
 
