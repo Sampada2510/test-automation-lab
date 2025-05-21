@@ -9,6 +9,7 @@
 - [Download File Automation with Playwright and Node.js](#download-file-automation-with-playwright-and-nodejs)
 - [Selenium Automation Project TDD for Formy Demo Site](#selenium-automation-project-tdd-for-formy-demo-site)
 - [AwesomeQA Test Automation BDD Framework](#awesomeqa-test-automation-bdd-framework)
+- [OrangeHRM Automation Framework](orangeHRM-automation-framework)
 - [Let's Connect](#lets-connect)
 
 ## What's in Here?
@@ -279,6 +280,64 @@ The project includes tests for the following features on the AwesomeQA website:
 3. **Navigate to the contact page**
 
 Each feature is described in a Gherkin feature file, and the actions are implemented in step definition files and page object classes.
+
+# OrangeHRM Automation Framework
+
+## About the Framework
+
+This automation framework is built using **Selenium WebDriver with Python** to automate test scenarios for the OrangeHRM demo application. It follows the **Page Object Model (POM)** design pattern, which improves maintainability and readability by separating page structure and element locators from test logic.
+
+The framework also integrates **BDD (Behavior Driven Development)** style, enabling tests to be written in a natural language style (using tools like Behave), making it easier for both technical and non-technical stakeholders to understand the test scenarios.
+
+---
+
+## Why BDD?
+
+- **Clear Communication:** BDD promotes collaboration between developers, testers, and business analysts by using a common language (Gherkin syntax) that everyone can understand.
+- **Living Documentation:** BDD scenarios act as living documentation that stays in sync with the application functionality.
+- **Better Test Coverage:** By focusing on behavior from a user perspective, BDD helps uncover edge cases and real-world use cases.
+- **Reusability:** The steps defined in BDD can be reused across different scenarios, reducing duplicate code and improving efficiency.
+
+---
+
+## About Tests
+
+The tests cover critical workflows of the OrangeHRM application, such as:
+
+- **User Administration:** Searching for users, adding new users with roles and statuses, filling user details, and saving them.
+- **Leave Management:** Assigning leave to employees, selecting leave types and durations, adding comments, and verifying success messages.
+- **My Info Management:** Editing personal information such as first, middle, and last names, and saving the changes.
+- **Login:** Automating the login process with valid credentials.
+
+These tests validate the core functionality from both administrative and employee perspectives.
+
+---
+
+## Element Locators and Challenges
+
+- The framework primarily uses **XPath locators** to find elements on the web pages, leveraging both absolute and relative paths for precision.
+- It also uses **By.NAME**, **By.LINK_TEXT**, and **By.TAG_NAME** locators where suitable for simplicity and reliability.
+- To handle dynamic elements like **autocomplete dropdowns** and **select dropdown menus**, the framework waits explicitly for elements to be visible or clickable before interacting, using Selenium's **WebDriverWait** and **Expected Conditions**.
+- Handling date inputs and half-day selections required careful clearing and sending of keys (including special keys like `CONTROL + A` and `DELETE`).
+- Some complex workflows required custom waits and JavaScript execution to ensure elements were interactable, especially for buttons hidden due to scrolling or overlays.
+- Timing issues are managed by a combination of explicit waits and strategically placed sleeps where necessary to ensure UI stability before interaction.
+
+---
+
+## Project Structure
+
+- **Page Objects:** Each major feature or page (Admin, Leave, My Info, Login) has its own class defining locators and interaction methods.
+- **Tests:** Test scenarios are written separately using the BDD approach, typically in feature files with step definitions calling page methods.
+- **Utilities:** Helper methods for waits, actions, and common utilities are centralized for reuse.
+- **Configurations:** Environment-specific data (URLs, credentials) are managed via environment variables or external configuration files (e.g., `.env`).
+
+- APP_URL=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+- ADMIN_USERNAME=admin
+- ADMIN_PASSWORD=admin123
+
+- This approach keeps the framework flexible for different environments (e.g., staging, production) and secure by excluding sensitive data from source control.
+
+---
 
 
 ## Let's Connect

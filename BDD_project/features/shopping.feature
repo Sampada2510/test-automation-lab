@@ -1,4 +1,4 @@
-@shopping
+@awesome
 Feature: Basic shopping flow on AwesomeQA
 
   Scenario: Search for an existing product
