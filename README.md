@@ -9,7 +9,7 @@
 - [Download File Automation with Playwright and Node.js](#download-file-automation-with-playwright-and-nodejs)
 - [Selenium Automation Project TDD for Formy Demo Site](#selenium-automation-project-tdd-for-formy-demo-site)
 - [AwesomeQA Test Automation BDD Framework](#awesomeqa-test-automation-bdd-framework)
-- [OrangeHRM Automation Framework](orangeHRM-automation-framework)
+- [Orangehrm Automation Framework](#orangehrm-automation-framework)
 - [Let's Connect](#lets-connect)
 
 ## What's in Here?
@@ -281,7 +281,7 @@ The project includes tests for the following features on the AwesomeQA website:
 
 Each feature is described in a Gherkin feature file, and the actions are implemented in step definition files and page object classes.
 
-# OrangeHRM Automation Framework
+# Orangehrm Automation Framework
 
 ## About the Framework
 
